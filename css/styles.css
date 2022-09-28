@@ -32,6 +32,9 @@
 .A{
 	color:white;
 }
+ a{
+	color:black;
+}
 .link2{
 	margin-left:10px;
 }
@@ -42,17 +45,28 @@
 	width:280px;
 }
 .mic{
+	width:12px;
+	margin-left:250px;
+	margin-top:10px;
+}
+.image{
 	width:20px;
+	margin-left:15px;
+	margin-top:10px;
+	
 }
 .shortcut1 img{
 	width:30px;
 }
 .shortcuts{
 	display:flex;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top:40px;
+
 }
-.add{
-	width:30px;
-}
+
 .googleIcon{
 	display:flex;
 	justify-content:center;
@@ -61,26 +75,93 @@
 .searching{
 	justify-content:center;
 	display: flex;
-	
+	margin-top:30px;
 	
 }
 .searchBar {
 	display:flex;
-	align-items: center;
-	background-color:whitesmoke;
-	padding: 3px;
+	box-shadow: 1px 2px 5px 3px #d1d6e0;
+	padding: 5px;
 	border-radius: 85px;
-	width:300px;
-	padding-right:170px;
-	padding-left:170px;
+	width:580px;
+	
+
+	
 }
-
-
-
 .searchBar input {
 	border: none;
 	padding: 10px;
 	outline: none;
 	font-size: medium;
 	background-color: transparent;
+	margin-left:15px;
+	width: 222px;
+}
+.images{
+	width:29px;
+
+}
+.shortcut2{
+	margin-left:30px;	
+}
+.facebookIcon{
+	background-color:whitesmoke;
+	border-radius: 34px;
+	width: 47px;
+	margin-left:10px;
+}
+.addIcon{
+	background-color:whitesmoke;
+	border-radius: 34px;
+	width: 47px;
+	margin-left: 19px;
+}
+.add{
+	margin-top:15px;
+}
+.facebook{
+	margin-top:8px;
+}
+.customize{
+	display:flex;
+	box-shadow: 1px 2px 5px 3px #d1d6e0;
+	width:155px;
+	padding:5px;
+	border-radius:20px;
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	
+}
+.customizeimg img{
+	width:15px;
+}
+.customizeContend{
+	color:#31a2f7;
+	margin-left:5px;
+}
+.link1 :hover{
+	text-decoration:underline;
+}
+.link2 :hover{
+	text-decoration:underline;
+}
+.img1 :hover{
+	background-color:#dce0e3;
+}
+.user:hover{
+	
+	cursor:pointer;
+}
+.shortcut1:hover{
+	cursor:pointer;
+	background-color:#dce0e3;
+}
+.shortcut2:hover{
+	cursor:pointer;
+	background-color:#dce0e3;
+}
+.customize:hover{
+	cursor:pointer;
+	background-color:#f2f6fa;
 }
